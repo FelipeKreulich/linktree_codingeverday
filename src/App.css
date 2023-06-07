@@ -1,38 +1,106 @@
-.App {
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', 'Roboto', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: #171810;
+}
+
+.text-color {
+  color: #03F96D;
+}
+
+.card {
+  background: #24251A;
+  color: white;
+  border-radius: 16px;
+  padding: 30px;
+  max-width: 700px;
+}
+
+.card h1 {
+  font-size: 20px;
+}
+
+.card p {
+  font-size: 16px;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.text-center {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.profile .avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.card .btn_action {
+  padding: 8px 10px;
+  text-decoration: none;
   color: white;
+  background-color: #08C759;
+  width: 100%;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: semi-bold;
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  display: flex;
+  align-items: center;
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.30);
 }
 
-.App-link {
-  color: #61dafb;
+.card .btn_action span {
+  margin-left: 8px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card .btn_action:hover {
+  background: #262913;
+  color: #FFFAFA;
+  transform: scale(1.02);
+}
+
+.rd_12 {
+  border-radius:12px;
+}
+
+.p_8 {
+  padding: 8px;
+}
+
+.footer {
+  margin-top: 20px;
+  color: 	white;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer>p {
+  font-size: 10px;
+}
+
+.icons {
+  transform: scale(0.8);
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
