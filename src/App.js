@@ -23,31 +23,31 @@ function App() {
           </div>
           <div className='mt-16'>
             <a className='btn_action bg_content' href='https://discord.gg/UPzWZefR4p'>
-              <img src={Discord} alt='Instagram' className='icons' />
+              <img src={Discord} alt='Discord' className='icons' />
               <span>Entre em Nossa Comunidade do Discord</span>
             </a>
           </div>
           <div className='mt-16'>
+            <a className='btn_action bg_content' href='https://dozeroaocodigo.tech/'>
+              <img src={Book} alt='Curso' className='icons' />
+              <span>Curso de Algoritmo e Lógica - NOVIDADE!!!</span>
+            </a>
+          </div>
+          <div className='mt-16'>
             <a className='btn_action bg_content' href='https://www.instagram.com/codingeverday_/'>
-              <img src={Instagram} alt='Parceiros' />
+              <img src={Instagram} alt='Instagram' />
               <span>Acesse nosso Instagram e Aproveite o Conteúdo</span>
             </a>
           </div>
           <div className='mt-16'>
             <a className='btn_action bg_content' href='https://drive.google.com/drive/folders/1OnzpX6B3136iugI6vOkdvF_cZizbQf7j?usp=sharing'>
-              <img src={Books} alt='Calendário' className='icons' />
+              <img src={Books} alt='Materiais' className='icons' />
               <span>Materiais de Estudo Gratuitos para Você</span>
             </a>
           </div>
           <div className='mt-16'>
-            <a className='btn_action bg_content' href='https://dozeroaocodigo.tech/'>
-              <img src={Book} alt='Time' className='icons' />
-              <span>Curso de Algoritmo e Lógica da Coding Everday</span>
-            </a>
-          </div>
-          <div className='mt-16'>
             <a className='btn_action bg_content' href='https://codingeverday.site/'>
-              <img src={Site} alt='Whatsapp' className='icons' />
+              <img src={Site} alt='Website' className='icons' />
               <span>Acesse nosso Website e Veja as Notícias</span>
             </a>
           </div>
