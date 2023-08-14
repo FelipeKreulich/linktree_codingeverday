@@ -28,9 +28,9 @@ function App() {
             </a>
           </div>
           <div className='mt-16'>
-            <a className='btn_action bg_content' href='https://dozeroaocodigo.tech/'>
-              <img src={Book} alt='Curso' className='icons' />
-              <span>Curso de Algoritmo e Lógica - NOVIDADE!!!</span>
+            <a className='btn_action bg_content' href='#'>
+              <img src={Book} alt='Ebook' className='icons' />
+              <span>Conheça nosso E-Book gratuito de Lógica de Programação</span>
             </a>
           </div>
           <div className='mt-16'>
